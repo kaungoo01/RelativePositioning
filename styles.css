@@ -1,12 +1,16 @@
+body{
+  
+  margin:0px;
+}
+
 .red {
   
   width: 50px;
   height: 50px;
   background-color: red;
-  display:inline-block;
-  position:relative;
-  left:120px;
-  
+  position:absolute;
+  left:100px;
+  top:100px;  
 }
 
 .blue {
@@ -14,20 +18,15 @@
   width: 50px;
   height: 50px;
   background-color: blue;
-  display:inline-block;
-  position:relative;
-  left:10px;
-  
-}
+  position:absolute;
+  top:50px;
+  left:50px;
 
+}
 
 .yellow {
   width: 50px;
   height: 50px;
   background-color: yellow;
-  position:relative;
-  display:inline-block;
-  right:100px;
-  
-  
+   
 }
